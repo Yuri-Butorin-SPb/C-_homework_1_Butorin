@@ -8,5 +8,5 @@
 Console.WriteLine ("Введите любое целое число: ");
 int num = int.Parse (Console.ReadLine());
 
-if (num % 2 == 0) Console.WriteLine ("Введенное вами число явлеяется четным.");
-else Console.WriteLine ("Введенное вами число явлеяется нечетным.");
+if (num % 2 == 0) Console.WriteLine ("Введенное вами число является четным.");
+else Console.WriteLine ("Введенное вами число является нечетным.");
