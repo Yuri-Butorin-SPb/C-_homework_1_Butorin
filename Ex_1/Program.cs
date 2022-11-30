@@ -14,6 +14,6 @@ int num2 = int.Parse (Console.ReadLine());
 
 if (num1 > num2) Console.WriteLine ($"max =  {num1}");
 
-if (num1 < num2) Console.WriteLine ($"max =  {num2}");
+else if (num1 < num2) Console.WriteLine ($"max =  {num2}");
 
 else Console.WriteLine ($"{num1} = {num2}");
